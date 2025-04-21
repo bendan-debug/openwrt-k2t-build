@@ -1,7 +1,6 @@
 name: OpenWrt K2T CI
 on:
-  schedule:
-    - cron:  '0 10 * * *'
+  workflow_dispatch:
   watch:
     types: started
 jobs:
