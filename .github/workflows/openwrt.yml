@@ -5,7 +5,7 @@ on:
     types: started
 jobs:
   openwrt:	
-    runs-on: ubuntu-20.04	
+    runs-on: ubuntu-22.04	
     steps:	
     - name: 01 - clone repository	
       uses: actions/checkout@v2	
