@@ -14,7 +14,7 @@ jobs:
     - name: 03 - configure & build
       run: bash script.sh
     - name: 04 - push to artifact file	
-      uses: actions/upload-artifact@v2	
+      uses: actions/upload-artifact@v4	
       with:	
         name: k2t-framework
         path: openwrt/bin/targets/ath79/
